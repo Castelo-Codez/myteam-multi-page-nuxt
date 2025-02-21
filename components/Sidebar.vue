@@ -1,20 +1,6 @@
 <script setup lang="ts">
 import sidebarOpenState from "~/store/store";
 
-/*
-   class={`fixed w-[260px]  md:hidden transition duration-150 bg-color-police-blue   h-full z-[1111] top-0 right-0 ${
-                sidebarOpenerState
-                    ? 'translate-x-0 visible after:content-[""] after:absolute after:top-0 after:h-full after:md:hidden  after:bg-color-overlay after:w-[1000px] after:right-[260px]'
-                    : "translate-x-full invisible "
-            }`}
-  onClick={(e) => {
-                e.stopPropagation();
-            }}
-
-                 onClick={() => {
-                            setNewState(!sidebarOpenerState);
-                        }}
-*/
 </script>
 
 <template>

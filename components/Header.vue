@@ -1,4 +1,6 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import sidebarOpenState from "~/store/store";
+</script>
 
 <template>
     <header

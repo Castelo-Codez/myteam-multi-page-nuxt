@@ -10,5 +10,5 @@ export default defineNuxtConfig({
     image: {
         inject: true,
     },
-    modules: ["@nuxt/fonts", "@nuxt/image"],
+    modules: ["@nuxt/fonts", "@nuxt/image", "@nuxt/test-utils/module"],
 });

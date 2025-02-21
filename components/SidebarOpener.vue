@@ -6,6 +6,7 @@ import sidebarOpenState from "~/store/store";
     <button
         type="button"
         role="button"
+   
         aria-label="open sidebar"
         class="md:hidden cursor-pointer"
         title="open sidebar"

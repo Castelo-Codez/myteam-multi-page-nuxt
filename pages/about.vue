@@ -9,5 +9,5 @@ useHead({
     about page
 
     <NuxtLink to="/" class="text-"> home </NuxtLink>
-    <span></span>
+    <span>this is home page</span>
 </template>

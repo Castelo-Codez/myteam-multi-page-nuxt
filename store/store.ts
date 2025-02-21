@@ -1,3 +1,3 @@
 const sidebarOpenState = ref<boolean>(false);
 
-export default sidebarOpenState;
+export default sidebarOpenState
