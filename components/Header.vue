@@ -22,7 +22,9 @@
                     </NuxtLink>
                     <NavLinks class="hidden md:block" />
                 </div>
-                <Button :is-light="true" />
+                <Button :is-light="true" class="hidden md:block" />
+                <SidebarOpener />
+                <Sidebar />
             </div>
         </div>
     </header>
