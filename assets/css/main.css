@@ -1,22 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-    --color-color-midnight-green: #014e56;
-    --color-color-light-coral: #F67E7E;
-    --color-color-white: #FFF;
-    --color-color-rapture-blue: #79C8C7;
-    --color-color-police-blue: #2C6269;
-    --color-color-deep-jungle-green: #2c6269;
-    --color-color-sacramento-state-green: #004047;
-    --color-color-dark-green: #002529;
-    --color-color-very-dark-green: #012f34;
-    --color-color-overlay: rgba(0, 0, 0, 0.76);
-    --color-color-gray: rgba(247, 247, 247, 0.5);
-}
-@utility container {
-    margin-inline: auto;
-    padding-inline: 2rem;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @layer base {
     body {
         font-family: "Livvic", serif;

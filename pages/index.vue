@@ -5,4 +5,6 @@ useHead({
 });
 </script>
 
-<template>index page</template>
+<template>
+    <HomeSec1 />
+</template>
