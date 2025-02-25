@@ -1,7 +1,6 @@
 import {mountSuspended} from "@nuxt/test-utils/runtime";
 import {test, describe, expect} from "vitest";
-import HomeSec1 from "~/components/HomeSec1.vue";
-
+import {HomeSec1} from "#components";
 describe("testing section 1 of home page", () => {
     test("testing content", async () => {
         const homeSec1 = await mountSuspended(HomeSec1);
