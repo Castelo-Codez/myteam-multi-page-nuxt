@@ -8,4 +8,5 @@ useHead({
 <template>
     <HomeSec1 />
     <HomeSec2 />
+    <HomeSec3 />
 </template>
