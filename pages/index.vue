@@ -7,4 +7,5 @@ useHead({
 
 <template>
     <HomeSec1 />
+    <HomeSec2 />
 </template>
