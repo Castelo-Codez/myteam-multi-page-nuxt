@@ -2,5 +2,5 @@
     <Header />
     <slot />
     <ReadyToGetStarted />
-    <footer>footer</footer>
+    <Footer />
 </template>
