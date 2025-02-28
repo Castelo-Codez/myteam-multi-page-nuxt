@@ -14,9 +14,9 @@
                     <NuxtImg
                         src="/logo.svg"
                         alt="logo"
-                        width="140"
+                        width="150"
                     
-                        height="140"
+                        height="150"
                         placeholder="/spiner.svg"
                     />
                 </NuxtLink>
