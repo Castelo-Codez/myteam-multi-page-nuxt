@@ -6,8 +6,5 @@ useHead({
 </script>
 
 <template>
-    about page
-
-    <NuxtLink to="/" class="text-"> home </NuxtLink>
-    <span>this is home page</span>
+    <AboutSec1 />
 </template>
