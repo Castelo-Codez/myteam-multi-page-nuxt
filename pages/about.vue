@@ -7,4 +7,5 @@ useHead({
 
 <template>
     <AboutSec1 />
+    <AboutSec2 />
 </template>

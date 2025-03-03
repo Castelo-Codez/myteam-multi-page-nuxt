@@ -5,4 +5,25 @@
     body {
         font-family: "Livvic", serif;
     }
+    .backface-hidden {
+        backface-visibility: hidden;
+    }
+    .transform-3d {
+        transform-style: preserve-3d;
+    }
+    .rotate-y-180 {
+        transform: rotateY(180deg);
+    }
+    .-rotate-y-180 {
+        transform: rotateY(-180deg);
+    }
+    .transition-cus {
+        transition: 0.6s;
+    }
+    .perspective {
+        perspective: 600px;
+    }
+    .rotate-45 {
+        transform: rotate(45deg);
+    }
 }
