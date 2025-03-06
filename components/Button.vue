@@ -10,6 +10,7 @@ defineProps<{
         title="contact us"
         role="link"
         v-if="isLight"
+        @click="() => navigateTo('/contact-us')"
     >
         contact us
     </button>
@@ -19,6 +20,7 @@ defineProps<{
         aria-label="contact us"
         title="contact us"
         role="link"
+        @click="() => navigateTo('/contact-us')"
     >
         contact us
     </button>
