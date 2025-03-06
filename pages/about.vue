@@ -8,5 +8,6 @@ useHead({
 <template>
     <AboutSec1 />
     <AboutSec2 />
-    <AboutSec3 />
+    <AboutSec3 /> 
+    <ReadyToGetStarted />
 </template>

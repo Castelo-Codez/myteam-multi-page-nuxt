@@ -1,18 +1,13 @@
-<script lang="ts" setup>
-definePageMeta({
-    layout: false,
-});
-</script>
+
 
 <template>
-    <Header />
     <section>
         <section
-            class=" pt-16 pb-32 relative overflow-hidden   bg-color-midnight-green"
+            class="pt-16 pb-32 relative overflow-hidden bg-color-midnight-green"
         >
             <div
                 aria-hidden="true"
-                class=" hidden lg:block absolute top-14 left-[calc(-18%_+_1vw)] xl:left-[calc(-15%_+_1vw)]  2xl:left-[calc(-10%_+_5vw)]"
+                class="hidden lg:block absolute top-14 left-[calc(-18%_+_1vw)] xl:left-[calc(-15%_+_1vw)] 2xl:left-[calc(-10%_+_5vw)]"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -37,22 +32,22 @@ definePageMeta({
                 </svg>
             </div>
             <div
-                class=" container grid grid-cols-1 gap-y-20 lg:grid-cols-2 lg:items-center"
+                class="container grid grid-cols-1 gap-y-20 lg:grid-cols-2 lg:items-center"
             >
                 <section class="left-layer flex flex-col gap-y-10">
                     <h2
-                        class=" relative z-10 text-center lg:text-left  text-color-white font-[700] text-[3rem] lg:text-[4rem]  "
+                        class="relative z-10 text-center lg:text-left text-color-white font-[700] text-[3rem] lg:text-[4rem]"
                     >
                         Contact
                     </h2>
                     <h3
-                        class="relative z-10 text-[2.1rem] mt-[-3rem] lg:mt-[-1.5rem]  text-color-light-coral font-[700] text-center lg:text-left"
+                        class="relative z-10 text-[2.1rem] mt-[-3rem] lg:mt-[-1.5rem] text-color-light-coral font-[700] text-center lg:text-left"
                     >
                         Ask us about
                     </h3>
-                    <ul class=" flex flex-col gap-y-8 ">
+                    <ul class="flex flex-col gap-y-8">
                         <li
-                            class=" flex flex-col gap-y-3  items-center lg:flex-row lg:gap-x-4 "
+                            class="flex flex-col gap-y-3 items-center lg:flex-row lg:gap-x-4"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -79,13 +74,13 @@ definePageMeta({
                                 </g>
                             </svg>
                             <p
-                                class=" text-center text-[1.2rem] font-[700] text-color-white"
+                                class="text-center text-[1.2rem] font-[700] text-color-white"
                             >
                                 The quality of our talent network
                             </p>
                         </li>
                         <li
-                            class=" flex flex-col gap-y-3  items-center lg:flex-row lg:gap-x-4 "
+                            class="flex flex-col gap-y-3 items-center lg:flex-row lg:gap-x-4"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -107,13 +102,13 @@ definePageMeta({
                                 </g>
                             </svg>
                             <p
-                                class=" text-center text-[1.2rem] font-[700] text-color-white"
+                                class="text-center text-[1.2rem] font-[700] text-color-white"
                             >
                                 Usage & implementation of our software
                             </p>
                         </li>
                         <li
-                            class=" flex flex-col gap-y-3  items-center lg:flex-row lg:gap-x-4 "
+                            class="flex flex-col gap-y-3 items-center lg:flex-row lg:gap-x-4"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +130,7 @@ definePageMeta({
                                 </g>
                             </svg>
                             <p
-                                class=" text-center text-[1.2rem] font-[700] text-color-white"
+                                class="text-center text-[1.2rem] font-[700] text-color-white"
                             >
                                 How we help drive innovation
                             </p>
@@ -148,7 +143,7 @@ definePageMeta({
             </div>
             <div
                 aria-hidden="true"
-                class=" absolute -bottom-[10%] -right-[10%] lg:-bottom-[5%] lg:-right-[5%]"
+                class="absolute -bottom-[10%] -right-[10%] lg:-bottom-[5%] lg:-right-[5%]"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -170,5 +165,4 @@ definePageMeta({
             </div>
         </section>
     </section>
-    <Footer />
 </template>
