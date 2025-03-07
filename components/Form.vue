@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import {useForm, validate} from "vee-validate";
+import {useForm} from "vee-validate";
 import {toTypedSchema} from "@vee-validate/zod";
 import {z} from "zod";
 const {errors, handleSubmit, defineField} = useForm({
@@ -37,7 +37,7 @@ const onSumbit = handleSubmit((values) => {
             v-model="name"
             v-bind="nameAttrs"
         />
-
+        {{ errors }}
         <p class="text-color-light-coral" v-if="errors.name">
             {{ errors.name }}
         </p>

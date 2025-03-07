@@ -17,7 +17,8 @@
         "nuxt": "^3.15.4",
         "vee-validate": "^4.15.0",
         "vue": "latest",
-        "vue-router": "latest"
+        "vue-router": "latest",
+        "wait-for-expect": "^3.0.2"
     },
     "devDependencies": {
         "@nuxt/test-utils": "^3.17.0",
