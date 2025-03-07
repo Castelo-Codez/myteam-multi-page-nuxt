@@ -13,8 +13,20 @@ const {errors, handleSubmit, defineField} = useForm({
                     message: "Name Cannot Be a Numbers Only",
                 }),
             email: z.string().min(1).email(),
-            company: z.string().min(3).max(11),
-            title: z.string().min(3).max(11),
+            company: z
+                .string()
+                .min(3)
+                .max(11)
+                .refine((value) => isNaN(Number(value)), {
+                    message: "Name Cannot Be a Numbers Only",
+                }),
+            title: z
+                .string()
+                .min(3)
+                .max(11)
+                .refine((value) => isNaN(Number(value)), {
+                    message: "Name Cannot Be a Numbers Only",
+                }),
         })
     ),
 });
@@ -37,7 +49,7 @@ const onSumbit = handleSubmit((values) => {
             v-model="name"
             v-bind="nameAttrs"
         />
-        {{ errors }}
+
         <p class="text-color-light-coral" v-if="errors.name">
             {{ errors.name }}
         </p>
